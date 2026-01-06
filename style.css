@@ -1,0 +1,234 @@
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/inter-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/inter-v20-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/inter-v20-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/inter-v20-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./fonts/inter-v20-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./fonts/inter-v20-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+.container {
+  width: 100%;
+  max-width: 1266px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+ul,
+li,
+ol {
+  list-style: none;
+  list-style-type: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.header {
+  background-color: black;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo-link {
+}
+.header-list {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.header-lists {
+}
+.header-links {
+}
+.header-links-text {
+  color: white;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 500;
+}
+.header-links-text:hover {
+  transition: 500ms;
+  color: red;
+}
+.hero {
+  margin: 114px;
+}
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-title {
+  width: 800px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 88px;
+  text-align: center;
+  line-height: 93px;
+  letter-spacing: 0%;
+  color: black;
+}
+.category {
+  margin-top: 114px;
+}
+.category-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.category-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 363px;
+}
+.category-images {
+  margin-bottom: 30px;
+}
+.category-title {
+  font-size: 28px;
+  font-family: "Inter";
+  font-weight: 600;
+  text-align: center;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+  color: black;
+}
+.category-texts {
+  font-size: 14px;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: black;
+}
+.category2 {
+  margin-top: 114px;
+}
+.category2-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.category2-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 363px;
+}
+.category2-images {
+  margin-bottom: 30px;
+}
+.category2-title {
+  font-size: 28px;
+  font-family: "Inter";
+  font-weight: 600;
+  text-align: center;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+  color: black;
+}
+.category2-texts {
+  font-size: 14px;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: black;
+}
+.footer {
+  background-color: black;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo-link {
+}
+.footer-list {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.footer-lists {
+}
+.footer-links {
+}
+.footer-links-text {
+  color: white;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 500;
+}
+.footer-links-text:hover {
+  transition: 500ms;
+  color: red;
+}
